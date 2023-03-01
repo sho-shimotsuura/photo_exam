@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'sessions#new'
+  root to: 'sessions#new'
   resources :pictures do
     collection do
       post :confirm
